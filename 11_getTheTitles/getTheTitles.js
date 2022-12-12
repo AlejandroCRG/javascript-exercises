@@ -1,6 +1,6 @@
-const getTheTitles = function(dict) {
-    dict.filter(obj => obj.title)
-    }
+const getTheTitles = function(dict) { 
+    return dict.map(book => book.title)
+}
 
 
 // Do not edit below this line
